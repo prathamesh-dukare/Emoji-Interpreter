@@ -1,0 +1,81 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #9a68a2;
+}
+h1 {
+  margin: 1rem auto;
+}
+.emojiMeaning {
+  color: #4cdeff;
+  margin: 2rem auto;
+  font-family: cursive;
+  font-size: 2em;
+}
+.weknow {
+  color: rgb(247, 242, 255);
+  font-size: 1.6em;
+  margin: 1em auto;
+}
+input {
+  width: 80%;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.emojiList {
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  font-size: 1.75rem;
+  width: 80%;
+  margin: 0 auto;
+}
+.emojiList li {
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 0rem;
+  cursor: pointer;
+  background-color: #623868;
+  padding: 0.4emrem;
+  margin: 1rem;
+  border-radius: 5px;
+}
+.emojiList li:hover {
+  background-color: #b387ba;
+}
+#hrline {
+  width: 80%;
+}
+.footer-nav {
+  font-size: 1.5rem;
+  font-family: cursive;
+  background-color: #623868;
+  width: 70%;
+  margin: 0 auto;
+  color: rgb(247, 242, 255);
+  border-radius: 8px;
+  margin-bottom: 0.8rem;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social li {
+  list-style-type: none;
+  /* padding: 1em; */
+}
+.social li svg {
+  padding: 0.5rem 1rem;
+  color: rgb(247, 242, 255);
+  border-radius: 10px;
+}
+.social li svg:hover {
+  background-color: #a672c1;
+}
